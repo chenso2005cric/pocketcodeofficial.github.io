@@ -1,0 +1,195 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("background.png");
+    position: absolute;
+    background-size: cover;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    visibility: hidden;
+}
+
+.start {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("background.png");
+    background-size: cover;
+    position: absolute;
+    font-family: Gotham;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.end-box{
+    width: 96vw;
+    height: 96vh;
+    background-color: rgba(137, 43, 226, 0.349);
+    visibility: hidden;
+}
+.welcome {
+    font-size: 70px;
+    position: absolute;
+    margin-top: -80vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.intro {
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.322);
+    padding-top: 70px;
+    padding-bottom: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 24px;
+    border: 2px solid red;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-01 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 640px;
+    margin-left: 830px;
+    background-image: url("go.png");
+    background-color: transparent;
+    border: none;
+    background-size: contain;
+    cursor: pointer;
+}
+.btn-01:hover {
+    transition-duration: 1s;
+    margin-left: 900px;
+}
+.charact{
+    align-items: center;
+    justify-content: center;
+    
+}
+.char01{
+    position: absolute;
+    width: 225px;
+    margin-left: -140px;
+    margin-top: 100px;
+    border: 2px solid;
+    border-radius: 24px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+.select-char{
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 60px;
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+    border-bottom: 3px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.intro-head {
+    color: rgb(255, 0, 0);
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.body {
+    margin: 0;
+}
+
+.boy {
+    width: 300px;
+    margin-top: 485px;
+    position: absolute;
+}
+
+.score {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 70px;
+    visibility: visible;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Gotham;
+    visibility: hidden;
+}
+
+.box {
+    background-image: url("flame.gif");
+    background-size: 50px 100%;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    margin-top: 620px;
+}
+
+.arrow {
+    background-image: url("flame.gif");
+    background-size: 50px 100%;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    margin-top: 460px;
+}
+
+.end {
+    position: absolute;
+    width: 96vw;
+    height: 96vh;
+    background-color: rgba(15, 15, 15, 0.555);
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: Gotham;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    border-radius: 24px;
+}
+
+.gameover {
+    color: red;
+    font-size: 100px;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(13, 161, 50, 0.507);
+}
+
+.yourscore {
+    color: rgb(235, 94, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+@font-face {
+    font-family: Gotham;
+    src: url("Gotham.woff2");
+}
+
+.btn {
+    width: 300px;
+    height: 80px;
+    background-color: rgb(27, 196, 63);
+    text-align: center;
+    color: rgb(15, 15, 15);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 12px;
+    border: 4px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
